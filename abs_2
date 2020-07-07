@@ -1,0 +1,18 @@
+#!/usr/bin/python
+
+from abc import ABC, abstractmethod
+
+class abstract(ABC):
+
+    @abstractmethod
+
+    def go(self):
+        pass
+
+class abstract_2(abstract):
+
+    def go(self):
+        print("go home")
+
+A = abstract_2()
+A.go()

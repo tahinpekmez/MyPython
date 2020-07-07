@@ -1,0 +1,9 @@
+#!/usr/bin/python
+
+F = None
+print(F) #output: None
+
+#F
+#print(F) don't give output
+
+

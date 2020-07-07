@@ -1,0 +1,19 @@
+#!/usr/bin/python
+
+import random as rnd
+
+rnd.seed(10)
+print(rnd.randint(1, 1000))
+
+rnd.seed(10)
+print(rnd.randint(1, 1000))
+
+rnd.seed(4)
+print(rnd.randint(1, 1000))
+
+rnd.seed(1)
+print(rnd.randint(1, 1000))
+
+
+rnd.seed(9)
+print(rnd.randint(1, 1000))

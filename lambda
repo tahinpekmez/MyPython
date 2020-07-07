@@ -1,0 +1,12 @@
+#!/usr/bin/python
+
+def double(x):
+    return x*2
+
+double_numbers = map(double, [2,3,5,7])
+
+print(double_numbers)
+
+#map, def blogundan ayri duruyor fakat
+#lambda hala isler durumda
+

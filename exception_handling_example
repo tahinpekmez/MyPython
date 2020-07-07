@@ -1,0 +1,6 @@
+#!/usr/bin/python
+try:
+    print int("hello world")
+except ValueError:
+    print "it is occured ValueError"
+   

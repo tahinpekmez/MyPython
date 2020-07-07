@@ -1,0 +1,31 @@
+#!/usr/bin/python
+
+x = 5
+t1 = 10 < x < 20
+print(bool(t1))
+
+y=6
+t2 = x==y
+print(bool(t2))
+
+s1 = t1
+if (s1 is t1):
+   print("True")
+else:
+   print("False")
+
+class A():
+    def __init__(self):
+        return None
+
+a = A()
+print(bool(a))
+
+class B():
+    def __len__(self):
+        return 0
+b = B()
+print(bool(b))
+
+
+

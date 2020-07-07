@@ -1,0 +1,10 @@
+#!/usr/bin/python
+
+class A (object):
+  #def __init__(self):
+   def has_no_return():
+       pass
+   has_no_return()
+   print(has_no_return())
+     
+   #OUTPUT = None

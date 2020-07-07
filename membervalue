@@ -1,0 +1,15 @@
+#!/usr/bin/python
+
+class A(object):
+
+    def __init__(self):
+        self.name = "name"
+        self.truth = "True"
+
+    def print_name(self):
+        print(self.name)
+        print(self.truth)
+       
+a = A()
+a.print_name()
+ 

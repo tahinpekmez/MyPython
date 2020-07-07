@@ -1,0 +1,20 @@
+#!/usr/bin/python
+
+from abc import ABCMeta, abstractmethod
+
+class abstract:
+
+    __metaclass__ = ABCMeta
+
+
+    @abstractmethod
+    def foo(self):
+        pass
+
+class abstract_2:
+   
+    __metaclass__ = ABCMeta
+
+    @abstractmethod
+    def foo(self):
+        print('hello foo')

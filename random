@@ -1,0 +1,25 @@
+#!/usr/bin/python
+
+import random as rnd
+
+x = [1*rnd.random() for k in range(3)]
+print(x)
+
+x = [10*rnd.random() for k in range(3)]
+print(x)
+
+x = [100*rnd.random() for k in range(3)]
+print(x)
+
+x = [1000*rnd.random() for k in range(3)]
+print(x)
+
+x = [60*rnd.random() for k in range(3)]
+print(x)
+
+
+
+
+
+
+

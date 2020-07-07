@@ -1,0 +1,15 @@
+#!/usr/bin/python
+
+class B():
+    
+    def __init__(self, june=7):
+         
+        self.june = june
+
+a = B()
+b = B()
+
+a.june = 17
+
+print(a.june)
+print(b.june)

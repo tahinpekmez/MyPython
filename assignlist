@@ -1,0 +1,21 @@
+#!/usr/bin/python 
+from itertools import compress 
+
+ 
+list = [1, 4, 5, 6, 7, 3] 
+ 
+print ("The original list is : " + str(list)) 
+
+list.append(10)
+
+print ("The new list is : " + str(list)) 
+
+# using using itertools.compress() 
+# to assign variables from list element 
+var1, var2, var3 = compress(list, (0, 1, 0, 1, 0, 1, 0)) 
+
+
+print ("The variables are : " + str(var1) +
+						" " + str(var2) +
+							" " + str(var3)) 
+

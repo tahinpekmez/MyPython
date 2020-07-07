@@ -1,0 +1,22 @@
+#!/usr/bin/python
+
+class A(object):
+
+     @staticmethod
+     def the_static_method(x,y):
+         return x+y
+         
+the_static_method = A.the_static_method(2,9) 
+print(the_static_method)
+
+
+
+
+#class B(object):
+
+     #@staticmethod
+     #def the_static_method(x):
+         #print(x)
+     #the_static_method = staticmethod(the_static_method)
+     
+#A.the_static_method(3) 

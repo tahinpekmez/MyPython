@@ -1,0 +1,25 @@
+#!/usr/bin/python
+class A(object):
+    def __init__(self):
+        self.lst = []
+
+class B(object):
+    lst = []
+
+#static uye olan "lst" erisimini her obje ile basardi
+x = B()
+y = B()
+x.lst.append(1)
+y.lst.append(2)
+print (x.lst)
+#class instance olan "lst" erisimini her obje ayri ayri basarabilir
+x = A()
+y = A()
+x.lst.append(1)
+y.lst.append(2)
+y.lst.append(3)
+print (y.lst)
+print (x.lst)
+
+
+
