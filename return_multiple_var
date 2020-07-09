@@ -1,0 +1,12 @@
+#!/usr/bin/python
+
+def fun(): 
+	m = dict(); 
+	m['name'] = "Mahmut"
+	m['age'] = 43
+	return m 
+
+ 
+m = fun() 
+print(m) 
+

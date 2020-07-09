@@ -1,0 +1,22 @@
+#!/usr/bin/python
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+ref = [(0.0, 151.6875), (0.011, 151.75), (0.022, 151.75), (0.031, 151.625), (0.042, 151.625), (0.052, 151.6875), (0.061, 151.625), (0.073, 151.6875), (0.08, 151.625)]
+
+res = [(0.0, 151.879), (0.01, 151.881), (0.02, 151.882), (0.03, 151.884), (0.04, 151.886), (0.05, 151.887), (0.06, 151.889), (0.07, 151.891), (0.08, 151.892)]
+
+ref = np.array(ref)
+res = np.array(res)
+
+plot = plt.figure()
+rect = plot.patch
+rect.set_facecolor('yellow')
+
+plt.plot(ref[:,0], ref[:,1], 'g')
+plt.plot(res[:,0], ref[:,1], 'b')
+
+plt.fill_between(ref[:,0], ref[:,1] * 0.9, ref[:,1] * 1.1)
+
+plt.show()
