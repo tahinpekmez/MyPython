@@ -14,5 +14,5 @@ def f(x):
 a = 60
 b = 1
 
-print(f(a)(b))
+print(f(a)(b)) # output is 121
 
