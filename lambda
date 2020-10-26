@@ -7,3 +7,12 @@ double_numbers = map(double, [2,3,5,7])
 
 print(double_numbers)
 
+# we only use name of outer function 
+def f(x):
+    z = 2
+    return lambda y: z*x+y
+a = 60
+b = 1
+
+print(f(a)(b))
+
