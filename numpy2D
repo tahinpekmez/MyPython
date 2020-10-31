@@ -15,5 +15,5 @@ print (b)
 
 c = np.zeros((2,2))
 
-print(c.shape) #boyutu (2,2) verir
-print(c[0].shape) #boyutu (2,) verecek = ROW
+print(c.shape) # (2,2)
+print(c[0].shape) # (2,) => ROW
