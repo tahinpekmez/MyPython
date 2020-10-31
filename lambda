@@ -16,3 +16,14 @@ b = 1
 
 print(f(a)(b)) # output is 121
 
+"""
+def area_of_rect(l,w):
+    return l*w
+print(f'{area_of_rect(7,8)}')
+print(f'{area_of_rect(6.7,9.4)}')
+"""
+
+rect_area = lambda x,y : x*y
+print(f'{rect_area(7,8)}')
+print(f'{rect_area(3.4,2.9)}')
+
